@@ -2,7 +2,7 @@
 {
     public class ObtenerFabrica
     {
-        public static void ConfiguracionFabrica(string operador)
+        public static IOperaciones ConfiguracionFabrica(string operador)
         {
             IOperaciones operar = null;
             if (operador == "+")
